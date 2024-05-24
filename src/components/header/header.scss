@@ -1,0 +1,36 @@
+header{
+position: fixed;
+top: 0;
+width: 100%;
+    nav{
+        padding: 20px 10px;
+
+        .top{
+            display: flex;
+            justify-content: space-between;
+
+            .top-left{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+            .top-right{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                .search,.favourites,.basket{
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .middle{
+            h1{
+                text-align: center;
+                font-size: 50px;
+                letter-spacing: 40px;
+            }
+        }
+    }
+}
